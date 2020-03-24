@@ -38,6 +38,18 @@ form.eight.columns {
 	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
 	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
 	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+
+	.slick-list {
+		display: flex;
+	}
+
+	.slick-track {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: stretch; // <-- stretch vertical (default value, can be omitted here)
+		align-content: center;
+	}
 }
 
 .slick-slide {
@@ -56,6 +68,26 @@ form.eight.columns {
 		p {
 			margin-bottom: 0;
 		}
+	}
+}
+
+@media (max-width: 768px) {
+	h1 {
+		font-size: 3rem;
+	}
+
+	h4 {
+		font-size: 1.8rem;
+	}
+
+	h3 {
+		font-size: 2rem;
+	}
+}
+
+@media (max-width: 450px) {
+	.slick-slide .columns {
+		padding: 2rem;
 	}
 }
 
