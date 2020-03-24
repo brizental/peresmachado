@@ -1,0 +1,83 @@
+---
+permalink: /contato.html
+layout: default
+---
+
+<div class="row">
+	<h4>Contato</h4>
+	<p>
+		Telefone/Whatsapp <strong>(41) 9 8505 9727</strong><br>
+		E-mail <strong>edirleymachado@gmail.com</strong><br>
+		Skype <strong>edirley.machado</strong>
+	</p>
+	<hr>
+	<h4>Enviar mensagem</h4>
+	<form id="contact-form" action="https://formspree.io/xknzklgw" method="POST">
+		<p id="status-form"></p>
+		<div class="row">
+			<div class="six columns">
+				<label for="exampleEmailInput">Nome completo</label>
+				<input class="u-full-width" name="name" id="nome" type="text">
+			</div>
+		</div>
+		<div class="row">
+			<div class="six columns">
+				<label for="exampleEmailInput">E-mail</label>
+				<input class="u-full-width" name="_replyto" id="email" type="email">
+			</div>
+		</div>
+		<div class="row">
+			<div class="twelve columns">
+				<label for="exampleRecipientInput">Assunto</label>
+				<input class="u-full-width" name="subject" id="assunto" type="text">
+			</div>
+		</div>
+		<label for="exampleMessage">Mensagem</label>
+		<textarea class="u-full-width" name="message" id="mensagem"></textarea>
+		<input id="submit-form" class="button-primary" name="enviar" value="Enviar" type="submit">
+	</form>
+</div>
+<script>
+	window.addEventListener("DOMContentLoaded", function() {
+	  var form = document.getElementById("contact-form");
+	  var button = document.getElementById("submit-form");
+	  var status = document.getElementById("status-form");
+
+	  // Success and Error functions for after the form is submitted
+	  
+	  function success() {
+		form.reset();
+		status.classList.remove("error");
+		status.classList.add("success");
+		status.innerHTML = "Mensagem enviada com sucesso, logo entratemos em contato. Obrigada!";
+	  }
+  
+	  function error() {
+		status.classList.remove("success");
+		status.classList.add("error");
+		status.innerHTML = "Houve algum problema ao enviar sua mensagem, por favor, tente novamente ou use algum dos canais de contato listados acima.";
+	  }
+
+	  form.addEventListener("submit", function(ev) {
+		ev.preventDefault();
+		var data = new FormData(form);
+		ajax(form.method, form.action, data, success, error);
+	  });
+	});
+
+	function ajax(method, url, data, success, error) {
+	  var xhr = new XMLHttpRequest();
+	  xhr.open(method, url);
+	  xhr.setRequestHeader("Accept", "application/json");
+	  xhr.onreadystatechange = function() {
+		if (xhr.readyState !== XMLHttpRequest.DONE) return;
+		if (xhr.status === 200) {
+		  success(xhr.response, xhr.responseType);
+		} else {
+		  error(xhr.status, xhr.response, xhr.responseType);
+		}
+		status.style = "display: block";
+	  };
+	  xhr.send(data);
+	}
+  </script>

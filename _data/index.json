@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Engenharia Legal e Engenharia Diagnóstica",
+    "description": "Excelência em projetos com 30 anos de experiência.",
+    "img": "elaboracao_de_projetos.jpg"
+  },
+  {
+    "title": "Projetos residenciais e comerciais",
+    "description": "Garantia de obra legal e sem transtornos.",
+    "img": "obras_novas.jpg"
+  },
+  {
+    "title": "Regularização de obras",
+    "description": "Imóvel com documentação regular é mais valorizado. Construir ou reformar sem o acompanhamento de um profissional especializado em documentação pode ser um grande prejuízo.",
+    "img": "regularizacao_obras.jpg"
+  },
+  {
+    "title": "Laudos e vistorias",
+    "description": "A Peres Machado Projetos e Consultoria está capacitada a elaborar vistorias e emitir laudos identificando as causas e apontando as soluções.",
+    "img": "laudos_vistorias.jpg"
+  },
+  {
+    "title": "Avaliações e Perícias",
+    "description": "Vistoria cautelar, desapropriações, renovatórias e revisionais de aluguéis e indenização por vícios de construção ou danos causados a terceiros necessitam de um parecer técnico de Engenharia.",
+    "img": "avaliacoes_pericias.jpg"
+  },
+  {
+    "title": "Incorporação Imobiliária",
+    "description": "Construir edificações coletivas compostas de unidades autônomas com a intenção de aliená-las durante a construção.",
+    "img": "incorporacao_imobiliaria.jpg"
+  },
+  {
+    "title": "Estações rádio base",
+    "description": "Regularização, busca, aquisição, laudos e licenciamentos.",
+    "img": "radio_base.jpg"
+  }
+]

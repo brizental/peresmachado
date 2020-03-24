@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<div class="row home-slider">
+	{% for slide in site.data.index %}
+	<div style="background-image: url('assets/images/home-slider/{{slide.img}}')">
+		<div class="seven columns">
+			<div class="content">
+				<h3>{{slide.title}}</h3>
+				<p>{{slide.description}}</p>
+			</div>
+		</div>
+	</div>
+	{% endfor %}
+</div>

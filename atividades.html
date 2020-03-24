@@ -1,0 +1,19 @@
+---
+permalink: /atividades.html
+layout: default
+---
+
+<div class="row">
+    <h4>Atividades</h4>
+    {% for atividade in site.data.atividades %}
+        <div class="activity group">
+            <div class="columns four">
+                <img src="/assets/images/atividades/{{atividade.img}}" alt="{{atividade.activity}}">
+            </div>
+            <div class="columns eight">
+                <h5>{{atividade.activity}}</h5>
+                {{atividade.description}}
+            </div>
+        </div>
+	{% endfor %}
+</div>

@@ -1,0 +1,32 @@
+[
+   {
+      "activity":"Projetos residenciais e comerciais",
+      "description":"<p>Desenvolvimento dos projetos de arquitetura (legais e de execução), estrutural e hidrossanitário tanto para obras novas como para reformas atendendo a legislação.</p><p>Todos os projetos desenvolvidos pela <strong>Peres Machado Projetos e Consultoria</strong> tem o acompanhamento até a emissão do Alvará de Construção. Garantia de obra legal e sem transtornos.</p>",
+      "img":"projetos_residenciais_comerciais.jpg"
+   },
+   {
+      "activity":"Regularização de obras",
+      "description":"<p>Imóvel com documentação regular é mais valorizado. Construir ou reformar sem o acompanhamento de um profissional especializado em documentação pode ser um grande prejuízo. Toda construção nova ou mesmo uma simples reforma deve estar acompanhada de toda documentação legal, ou seja, o Alvará de Construção e Habite-se. Sem este documento a obra estará sujeita a embargos pelo município. Uma questão fundamental para uma documentação regular é a averbação no Registro de Imóveis que somente poderá ser feito depois da emissão do Habite-se que é a garantia de que o imóvel está em dia com suas obrigações junto a todos os órgãos federais, estaduais e municipais.</p>",
+      "img":"regularizacao_obras.jpg"
+   },
+   {
+      "activity":"Laudos e Vistorias",
+      "description":"<p>Apesar de toda a tecnologia hoje existente, muitas estruturas acabam tendo desempenho insatisfatório, diante das finalidades a que se propunham, seja pela ocorrência de falhas involuntárias ou casos de imperícia na arte de projetar e construir.</p><p>A <strong>Peres Machado Projetos e Consultoria</strong> está capacitada a elaborar vistorias e emitir laudos identificando as causas e apontando as soluções para o que hoje é tratado pela engenharia como as Patologias das Construções.</p>",
+      "img":"laudos_vistorias.jpg"
+   },
+   {
+      "activity":"Avaliações e Perícias",
+      "description":"<p>Vistoria cautelar, desapropriações, renovatórias e revisionais de aluguéis e indenização por vícios de construção ou danos causados a terceiros necessitam de um parecer técnico de Engenharia.</p><p><i>Art. 2º, da Resolução CONFEA nº 345/1990: \"Compreende-se como a atribuição privativa dos Engenheiros em suas diversas especialidades, dos Arquitetos, dos Engenheiros Agrônomos, dos Geólogos, dos Geógrafos e dos Meteorologistas, as vistorias, perícias, avaliações e arbitramentos relativos a bens móveis e imóveis, suas partes integrantes e pertences, máquinas e instalações industriais, obras e serviços de utilidade pública, recursos naturais e bens e direitos que, de qualquer forma, para a sua existência ou utilização, sejam atribuições destas profissões\".</i></p>",
+      "img":"avaliacoes_pericias.jpg"
+   },
+   {
+      "activity":"Incorporação Imobiliária",
+      "description":"<p>Incorporação imobiliária é basicamente construir edificações coletivas compostas de unidades autônomas com a intenção de aliená-las durante a construção. Mas para que isto aconteça se faz necessária a preparação de uma série de documentos específicos de natureza técnica e de acordo com normas e leis que exigem a presença de profissional devidamente habilitado e capacitado.</p><p>A <strong>Peres Machado Projetos e Consultoria</strong> dispõe de mão de obra qualificada para este tipo de serviço.</p>",
+      "img":"incorporacao_imobiliaria.jpg"
+   },
+   {
+      "activity":"Regularização, busca, aquisição, laudos e licenciamentos de estações rádio base",
+      "description":"<p>Atuando desde 1995 no mercado de telecomunicações o corpo técnico da <strong>Peres Machado Projetos e Consultoria</strong> teve o privilégio de participar da expansão e transformação deste mercado. Atuando junto a fornecedores das operadoras de telefonia participou dos processos de comercialização, instalação de infra estrutura, aquisição, projeto e licenciamento de estações radio base em diversos estados brasileiros. Isto permitiu o acumulo de raro acervo técnico. Um diferencial quando das buscas e licenciamentos das estações. Estamos prontos para compartilhar com nossos clientes esta experiência.</p>",
+      "img":"radio_base.jpg"
+   }
+]
