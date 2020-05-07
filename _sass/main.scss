@@ -29,6 +29,23 @@ form.eight.columns {
 	margin: 0;
 }
 
+.container {
+	display: flex;
+	flex-direction: column;
+
+	.row {
+		display: flex;
+	}
+}
+
+#building {
+	align-self: strech;
+
+	img {
+		height: 100%;
+	}
+}
+
 .container .row .row {
 	width: 100%;
 }
