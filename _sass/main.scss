@@ -32,11 +32,6 @@ form.eight.columns {
 .container {
 	display: flex;
 	flex-direction: column;
-
-	.row {
-		display: flex;
-		flex-direction: column !important;
-	}
 }
 
 #building {
