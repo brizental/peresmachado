@@ -251,3 +251,17 @@ form.eight.columns {
 		padding-bottom: 0;
 	}
 }
+
+.button.button-primary,
+button.button-primary,
+input[type="submit"].button-primary,
+input[type="reset"].button-primary,
+input[type="button"].button-primary {
+	background-color: #2244bf;
+	border-color: #2244bf;
+
+	&:hover {
+		background-color: darken(#2244bf, 10%);
+		border-color: darken(#2244bf, 10%);
+	}
+}
